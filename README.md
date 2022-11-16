@@ -3,6 +3,11 @@ scripts/Programms written for IT Class
 
 ---
 
+> ### This is not exacty the code we used in the class
+> ### I gave myself the task to always minimize the amount of lines of code needed
+
+---
+
 ## **Index**
 + [Population.py](https://github.com/maxbossing/school/population.py)
     + Calculates a population based on some basic factors

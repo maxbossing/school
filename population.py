@@ -11,4 +11,3 @@ for i in range(0, int(input("iterations> "))):
     print(f'{young}\n{old}\n{elderly}\nTotal = {young + old + elderly}')
 
 print(f'Loop finished, final Population : [Young = {young}, Old = {old}, Elderly = {elderly}, Total = {young + old + elderly}]')
-
