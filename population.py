@@ -1,33 +1,14 @@
+# 9.11.2022
+# Edit 16.11.2022
 
+young,old,elderly = 6,9,12
 
-young = 6
-old = 9
-elderly = 12
+for i in range(0, int(input("iterations> "))):
+    print(f'|==========| {i + 1} |==========|')
+    
+    young, old, elderly = old * 4 + elderly * 2, young // 2, old // 3
 
-young1 = 0
-old1 = 0
-elderly1 = 0
+    print(f'{young}\n{old}\n{elderly}\nTotal = {young + old + elderly}')
 
-iterations = int(input("iterations>"))
-
-
-
-for i in range(0, iterations):
-    print("|==========| " + str(i + 1) + " |==========|")
-    young1 = old * 4 + elderly * 2
-
-    old1 = young / 2
-
-    elderly1 = old / 3
-
-    young = young1
-    old = old1
-    elderly = elderly1
-
-    print(young)
-    print(old)
-    print(elderly)
-
-
-
+print(f'Loop finished, final Population : [Young = {young}, Old = {old}, Elderly = {elderly}, Total = {young + old + elderly}]')
 
