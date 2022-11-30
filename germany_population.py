@@ -1,5 +1,6 @@
 # 2022-11-30
 # calculates the population changes of germany based on the population data from 2005 for n years
+# https://www.inf-schule.de/imperative-programmierung/python/projekte/variablen/population/anwendung
 
 p0_14, p15_49, p50_64, p65 = 12.3*(10**6), 39.1*(10**6), 15.5*(10**6), 16.3*(10**6)
 

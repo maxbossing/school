@@ -1,7 +1,7 @@
 # 9.11.2022
 # Edit 16.11.2022
 # Calculates the poulation changes of a mouse colony for n years
-
+# https://www.inf-schule.de/imperative-programmierung/python/projekte/variablen/population/modellierung
 young,old,elderly = 6,9,12
 
 for i in range(0, int(input("iterations> "))):
