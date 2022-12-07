@@ -35,7 +35,7 @@ Calculates the population of germany based on the population data of 2005
 > 1. 2% of people in range 15-49 get kids(0-14)
 > 2. 97% of peope aged 15-49 stay in range 15-49
 > 3. 2.9% of people 15-49 age 50-64
-> 4. 0.1% of people 15-94 die
+> 4. 0.1% of people 15-49 die
 > ---
 > #### **50-64**
 > 1. 92.5% of people in range 50-64 stay in range 50-64
